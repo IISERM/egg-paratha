@@ -1,4 +1,4 @@
-# [Egg Paratha](https://iiserm.github.io/egg-paratha
+# [Egg Paratha](https://iiserm.github.io/egg-paratha)
 Computational Discussion sessions or something like that.
 IDK what these Phi@I people do all the time.
 Probably trying to copy some MIT Club.
