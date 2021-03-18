@@ -29,7 +29,7 @@ where $\phi(\vec{r}, t)$ is the density of the diffusing material at location $\
 "
 
 # ╔═╡ 233674b0-86ef-11eb-1076-1b3c74102904
-md" #### Random walks"
+md" #### A seemingly unrelated process: Random walks"
 
 # ╔═╡ 82cb8d90-86ed-11eb-256a-b5ab5f8c886f
 md"This is a stochastic process where we have a particle on an _infinite discrete_ grid, say a 1-dimensional line. Think a drunkard walking. Each moment, it can move one step to the right or one step to the left, with some probabilities $p$ and $1-p$.  **The particle has no 'memory' of previous choices, so every moment it makes an independent decision**.
@@ -41,10 +41,10 @@ At the end of N _timesteps_, the particle would end up at some random point on t
 # ╔═╡ bf72af32-875b-11eb-09ad-89156f89dfce
 md"Monitoring such individual particles may not tell us much, but when we perform this for many many particles and plot the distribution of final positions… then there is something interesting going on there. Try out the following stuff:
 
-* (**1-Dimensional**) Set various values of p and find the mean/variance of the distribution. What does this distribution converge to as you increase the number of particles? Can you come up with the exact distribution using theoretical calculations and verify the results. (**place all particles initially at origin, and run for 1000 moments**)
+* (**1-Dimensional**) Set various values of p and find the mean/variance of the distribution. What does this distribution converge to as you increase the number of particles? Can you come up with the exact distribution using theoretical calculations and verify the results. (**place all particles initially at origin, and run for 1000 timesteps**)
 
 
-* (**2-Dimensional**) There are now four probabilities which we can play with (4 directions to move). Set all probabilities equal to 0.25, and obtain the distribution. Change the number of moments N, and plot how the distribution changes wrt. N"
+* (**2-Dimensional**) There are now four probabilities which we can play around with (4 directions to move). Set all probabilities equal to 0.25, and obtain the distribution. Change the number of timesteps N, and plot how the distribution changes wrt. N"
 
 # ╔═╡ 362078c0-8760-11eb-02b6-8955248f55f7
 Hidden("Coding Hints", md"""
@@ -64,12 +64,12 @@ Can you optimize this?
 """)
 
 # ╔═╡ ce913a90-875b-11eb-1eaf-9fe615fc91de
-md"If we interpret the number of moments as a discrete version of time, this is actually quite similar to the spread obtained via the diffusion of a drop of ink placed at a single point on a surface. Is there some connection between a random walk and diffusion processes?
+md"If we interpret the number of timesteps as a discrete version of time, this is actually quite similar to the spread obtained via the diffusion of a drop of non-viscous fluid placed at a single point on a surface. Is there some connection between a random walk and diffusion processes?
 
 ![Diffusion](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4BdPl1ArKY55A_BaQGtHUlQKsFOzY_kPyEw&usqp=CAU)
 
 !!! danger \"Main idea\"
-    We can discretize space and time, and get accurate results to reality as we make the grid mesh finer and finer. Can this connect the random walk to the diffusion equation?
+    We can discretize space and time, and get more accurate results as we make the grid mesh finer and finer. Perhaps this is the missing link.
 
 Perform the calculations to show that this unbiased (equal probabilities) random walk has a distribution that emulates the diffusion process in the limit of large number of particles. (Assume that the diffusion equation mentioned above is characteristic of an isotropic diffusion process. Or look up how we get that equation in the first place and convince yourself.) 
 
@@ -101,22 +101,22 @@ $$t \equiv \{t_0, t_0 + dt, ..., t_0 + (m-1)dt \}$$
 
 $$\text{1st order finite difference: }\frac{dy(x)}{dx}\bigg|_{x = x_i} \equiv \frac{y(x_i) - y(x_{i-1})}{dx}$$
 
-To obtain the evolution of $y(x, t)$ for this discrete set of points, you can use the method of finite differences to approximate the two double derivatives. This will result in an equation that tells us how to calculate $y(x_i, t+dt)$ using the values $y(x, t)$. 
+To obtain the evolution of $y(x, t)$ for this discrete set of points, you can use the method of finite differences to approximate the two double derivatives. This will result in a recursive equation which allows us to find the updated $y$ values using the previous timesteps' $y$ values.
 !!! note
     It might be useful to cast it as a matrix equation and use linear algebra to solve it"
 
 
 # ╔═╡ 2f26dc00-8763-11eb-386a-f18e57d67e99
 Hidden("Coding Hints",md"
-At each instant, each point(particle) on the string has 2 values, $y$ and $v_y$.
-Store these in 2 `arrays`, one for $y$ and one for $v_y$.
-Note,
+At each instant, each point (particle) on the string is characterized by its height $y$. The information of velocity is contained in the neighbouring points (approximate derivatives). So you only need to store an array of the heights $y$.
+	
+* Use the method of finite differences and discretize the wave equation. This will give you a way to directly obtain the heights $y$ in the next time step: (find this function $f$)
+	
+$y(x_i, t_{i+1}) = f(y(x_{i-1}, t_i), y(x_i, t_i), y(x_{i+1}, t_i))$
 
-$$v_y = \frac{\partial y}{\partial t}$$
-$$dv_y = \frac{\partial^2 y}{\partial t^2} dt$$
-
-Maybe you can fix $dt$ to be a small number, like $= 10^{-5}$, and using this find $y(t+dt)$ given $y(t)$?
+* Now you can simply iterate through each $x_i$ and update the values of $y$ using the values of $y$ in the previous timestep. (The smarter and quicker way would be to somehow cast this as a matrix equation and use linear-algebra subroutines.)
 ")
+
 
 # ╔═╡ a5223492-875e-11eb-1514-6b2266f4949b
 md"Using this, try the following:
