@@ -17,8 +17,6 @@ because the best way to learn to code is to pick up small projects,
 and that's how we've designed our sessions. 
 These sessions would be a great opportunity to learn together and bond over the love of physics and (a bit of) coding.
 
-The next session would be held on **19th March 2021 (Friday) at 7 PM IST**.
-
 You all are welcome to come and interact and also suggest new ideas! Definitely get in touch with us if you want to organise a few days!
 
 # Links for the Weeks
