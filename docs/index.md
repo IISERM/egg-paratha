@@ -28,3 +28,7 @@ You all are welcome to come and interact and also suggest new ideas! Definitely 
 - [Questions for the week](week1/week1)
 - [Slides of Akshay's talk](week1/week1_slides)
 - [DiffEq Notebook by Arhan](week1/diff_eq.ipynb)
+
+## Week 2
+
+- [Akshay's implementation of Waves on a String](week2/WavesOnString)
