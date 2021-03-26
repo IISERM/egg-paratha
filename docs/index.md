@@ -23,4 +23,8 @@ You all are welcome to come and interact and also suggest new ideas! Definitely 
 
 # Links for the Weeks
 
-[Week 1](Week1.html)
+## Week 1
+
+- [Questions for the week](week1/week1)
+- [Slides of Akshay's talk](week1/week1_slides)
+- [DiffEq Notebook by Arhan](week1/diff_eq.ipynb)
