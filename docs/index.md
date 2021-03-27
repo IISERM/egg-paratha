@@ -21,7 +21,7 @@ You all are welcome to come and interact and also suggest new ideas! Definitely 
 
 # Links for the Weeks
 
-## [YouTube link for recordings](https://github.com/IISERM/egg-paratha)
+## [YouTube link for recordings](https://www.youtube.com/channel/UCmKKDthh-Dg84hxzXxmIrSQ)
 
 ## Week 1
 
