@@ -1,7 +1,4 @@
 # Egg Paratha
-
-A weekly discussion group dealing with Exploring Physics using Code, organized by the members of Phi@i. 
-
 ## Previous Iterations
 Egg-Paratha initially was concieved in 2021 by [Akshay](https://github.com/20akshay00/) and [Dhruva](https://github.com/DhruvaSambrani/) as a means to encourage discussion on research-oriented computational physics techniques. Unfortunately, it had a short life as the semester took over our time and motivation dwindled. The few sessions held during that time can be found [here](old/index.md).
 
