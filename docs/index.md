@@ -6,7 +6,7 @@ A weekly discussion group dealing with Exploring Physics using Code, organized b
 Egg-Paratha initially was concieved in 2021 by [Akshay](https://github.com/20akshay00/) and [Dhruva](https://github.com/DhruvaSambrani/) as a means to encourage discussion on research-oriented computational physics techniques. Unfortunately, it had a short life as the semester took over our time and motivation dwindled. The few sessions held during that time can be found [here](old/index.md).
 
 ## Rising from the ashes - Egg Paratha 2022
-With the arrival of MS21, we decided that this is a good opportunity to restart Egg-Paratha, albeit with a new set of plans and a focus on long-term sustainaibility... meaning that we hope the sessions will be carried on by the members of Phi@i over time. 
+With the arrival of MS21, we decided that this is a good opportunity to restart Egg-Paratha, albeit with a new set of plans and a focus on long-term sustainability... meaning that we hope the sessions will be carried on by the members of Phi@i over time. 
 
 ### The Plan
 
