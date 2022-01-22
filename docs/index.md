@@ -1,4 +1,3 @@
-=======
 # Egg Paratha
 
 A weekly discussion group dealing with Exploring Physics using Code, organized by the members of Phi@i. 
@@ -13,8 +12,8 @@ With the arrival of MS21, we decided that this is a good opportunity to restart 
 
 Weekly sessions on fun ways to use code to explore ideas in physics. We will roughly have two levels, probably spanning over the year 2022. Primarily aimed at newbies; MS20, MS21.
 
--LVL 1: simulating basic physics using code, with emphasis on visuals over accuracy 
--LVL 2: ease into what egg-paratha was meant to be; exploration of more advanced topics with increasing emphasis on accuracy/utility over visuals.
+- **LVL 1:** simulating basic physics using code, with emphasis on visuals over accuracy 
+- **LVL 2:** ease into what egg-paratha was meant to be; exploration of more advanced topics with increasing emphasis on accuracy/utility over visuals.
 
 Check out a tentative list of topics we have in mind [here](topics.md). More can be added based on suggestions from the participants or other potential hosts.
 
