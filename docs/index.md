@@ -1,69 +1,36 @@
-<<<<<<< Updated upstream
 # Egg Paratha
+## Previous Iterations
+Egg-Paratha initially was concieved in 2021 by [Akshay](https://github.com/20akshay00/) and [Dhruva](https://github.com/DhruvaSambrani/) as a means to encourage discussion on research-oriented computational physics techniques. Unfortunately, it had a short life as the semester took over our time and motivation dwindled. The few sessions held during that time can be found [here](old/index.md).
 
-Welcome to Egg paratha, the Phi@I computational physics discussion group. **\*\*Insert Turing Club collaboration line here\*\***.
+## Rising from the ashes - Egg Paratha 2022
+With the arrival of MS21, we decided that this is a good opportunity to restart Egg-Paratha, albeit with a new set of plans and a focus on long-term sustainability... meaning that we hope the sessions will be carried on by the members of Phi@i over time. 
 
-Phi@I and Turing Club, is introducing Weekly Computational Physics discussion sessions!
+### The Plan
 
-### Why Egg Paratha
+Weekly sessions on fun ways to use code to explore ideas in physics. We will roughly have two levels, probably spanning over the year 2022. Primarily aimed at newbies; MS20, MS21.
 
-We've named this Egg Paratha, and you'll get to know the reason for this in the sessions.
+- **LVL 1:** simulating basic physics using code, with emphasis on visuals over accuracy 
+- **LVL 2:** ease into what egg-paratha was meant to be; exploration of more advanced topics with increasing emphasis on accuracy/utility over visuals.
 
-### What we'll do
+Check out a tentative list of topics we have in mind [here](topics.md). More can be added based on suggestions from the participants or other potential hosts.
 
-The sessions will include some introduction to the problems of the week every Friday evening, and discussions over the next week over our Discord server! Contact the conveners for the link to the Discord group!
+#### Event structure: 
+- Sessions once a week (or twice every three weeks), 1-3 hrs duration 
+- A topic/broad area of exploration (like the ones listed above) is chosen for each session
+- Some MS18/19/20 person hosts each session (ideally different ones each time, based on their level of experience/interest in that weeks topic). They will organize the session, and act as a guide for people implementing the stuff.
 
-We don't expect you to come prepared for anything,
-because the best way to learn to code is to pick up small projects, 
-and that's how we've designed our sessions. 
-These sessions would be a great opportunity to learn together and bond over the love of physics and (a bit of) coding.
+#### Session structure: 
+- Start by throwing around ideas, see what people think is a good approach to solve the task
+- Small presentation by the host, teaching/introducing whatever relevant concepts required 
+- Code-along-with-me for the basic simulation (host goes through implementation, while participants try to do it on their own as well)
+- Based on time constraints/complexity of the problem, explorations (Progression/Explore) will be left to the participants to attempt on their own and discuss passively (over discord or during the next sessions).
 
-You all are welcome to come and interact and also suggest new ideas! Definitely get in touch with us if you want to organise a few days!
+#### Proposed Language to code in: Julia!
+We're aware that most people are likely to have experience in python, but the syntactic switch to perform basic tasks is fairly simple (**familiarity with basic programming concepts has more relevance here**). Julia is preferred for reasons that will become clear over the course of the sessions.. but right off the bat, it is very convenient for scientific computing, and making plot-based animations is a breeze compared to python. 
 
-# Links for the Weeks
+To ease this process, we have collated some useful resources [here](resources.md). If this is too much work, you can of course stick to your preferred language of choice, as the take-away from these sessions are meant to be new ways of thinking, rather than exploring the nuances of a particular language.
 
-## [YouTube link for recordings](https://www.youtube.com/channel/UCmKKDthh-Dg84hxzXxmIrSQ)
+**Note:** Any potential hosts who are comfortable only with python are still encouraged to host sessions.. the syntax for basic stuff are similar enough that it wont be too much of a hassle. 
 
-## Week 1
+You all are welcome to come and interact and also suggest new ideas! Definitely get in touch with us if you want to host a few sessions!
 
-- [Questions for the week](week1/week1)
-- [Slides of Akshay's talk](week1/week1_slides)
-- [DiffEq Notebook by Arhan](week1/diff_eq.ipynb)
-
-## Week 2
-
-- [Akshay's implementation of Waves on a String](week2/WavesOnString)
-- [Dhruva's implementation of Markov Chain random walks](week2/w1q1_markov.jl.html)
-
-=======
-# Egg Paratha
-
-Welcome to Egg paratha, the Phi@I computational physics discussion group. **\*\*Insert Turing Club collaboration line here\*\***.
-
-Phi@I and Turing Club, is introducing Weekly Computational Physics discussion sessions!
-
-### Why Egg Paratha
-
-We've named this Egg Paratha, and you'll get to know the reason for this in the sessions.
-
-### What we'll do
-
-The sessions will include some introduction to the problems of the week every Friday evening, and discussions over the next week over our Discord server! Contact the conveners for the link to the Discord group!
-
-We don't expect you to come prepared for anything,
-because the best way to learn to code is to pick up small projects, 
-and that's how we've designed our sessions. 
-These sessions would be a great opportunity to learn together and bond over the love of physics and (a bit of) coding.
-
-The next session would be held on **19th March 2021 (Friday) at 7 PM IST**.
-
-You all are welcome to come and interact and also suggest new ideas! Definitely get in touch with us if you want to organise a few days!
-
-# Links for the Weeks
-
-## Week 1
-
-- [Questions for the week](week1/week1)
-- [Slides of Akshay's talk](week1/week1_slides)
-- [DiffEq Notebook by Arhan](week1/diff_eq.ipynb)
->>>>>>> Stashed changes
