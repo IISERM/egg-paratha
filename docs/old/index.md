@@ -1,4 +1,4 @@
-# Egg Paratha 2021
+# Egg Paratha 2021 
 
 Welcome to Egg paratha, the Phi@I computational physics discussion group. **\*\*Insert Turing Club collaboration line here\*\***.
 
@@ -29,3 +29,9 @@ You all are welcome to come and interact and also suggest new ideas! Definitely 
 
 - [Akshay's implementation of Waves on a String](week2/WavesOnString)
 - [Dhruva's implementation of Markov Chain random walks](week2/w1q1_markov.jl.html)
+
+---
+
+# Discontinued
+
+---
