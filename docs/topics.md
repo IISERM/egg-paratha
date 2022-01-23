@@ -27,7 +27,7 @@ Goal is to visualize and play around with familiar concepts in physics using the
 
 - (Euler integration) -> Simple pendulum but with springs instead of rigid rods. 
     - **Progression:** Extend to arbitrary number of objects and springs. Incorporate basic collision system to make primitive model of soft bodies.
-    - **Explore:** 
+    - **Explore:** NA
 
 - (??) -> Visualize electric field due to accelerating point charge(s).
 
