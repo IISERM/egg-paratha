@@ -39,7 +39,7 @@ Firstly, languages like C++ and Fortran are eliminated immediately. Although the
 
 Secondly, we're aware that most people are likely to have experience in python, but the syntactic switch to perform basic tasks is fairly simple (**familiarity with basic programming concepts has more relevance here**). Julia is preferred for reasons that will become clear over the course of the sessions.. but right off the bat, it is very convenient for scientific computing, and making plot-based animations is a breeze compared to python. We will discuss basic syntax and features as the sessions progress.
 
-To ease this process, we have collated some useful Julia resources [here](resources.md). If this is too much work, you can of course stick to your preferred language of choice, as the take-away from these sessions are meant to be new ways of thinking, rather than exploring the nuances of a particular language. 
+To ease this process, we have collated some useful [Julia resources](resources.md). If this is too much work, you can of course stick to your preferred language of choice, as the take-away from these sessions are meant to be new ways of thinking, rather than exploring the nuances of a particular language. 
 
 **Note:** Any potential hosts who are comfortable only with python are still encouraged to host sessions.
 
