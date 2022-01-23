@@ -21,7 +21,7 @@ Weekly sessions on fun ways to use code to explore ideas in physics. We will hav
 - **LVL 1:** simulating basic physics using code, with emphasis on visuals over accuracy. 
 - **LVL 2:** ease into what egg-paratha was meant to be; exploration of more advanced topics with increasing emphasis on accuracy/utility over visuals.
 
-Check out a tentative list of topics we have in mind [here](topics.md).
+**Check out a tentative list of topics we have in mind [here](topics.md).**
 
 #### Ingredients (Event structure):
 - Sessions once a week (or twice every three weeks), 1-3 hrs duration 
