@@ -2,7 +2,7 @@
 
 ---
 
-## Next Session: 3-5PM, 26th Jan
+## Next Session: 3-5PM, 29th Jan
 
 ---
 
