@@ -15,7 +15,7 @@ Egg-Paratha initially was concieved in 2021 by [Akshay](https://github.com/20aks
 With the arrival of MS21, we decided that this is a good opportunity to restart Egg-Paratha, albeit with a new set of plans and a focus on long-term sustainability... meaning that we hope the sessions will be carried on by the members of Phi@I over time. More info can be found [here](info.md).
 
 ## Sessions
-- **Week 1: ** [Simple Pendulum](./week1/simple_pendulum.html) driver code (no visualization) - [(source)](../src/simple_pendulum.jl)
+- **Week 1:** [Simple Pendulum](./week1/simple_pendulum.html) driver code (no visualization)
 
 ### Proposed Language to code in: Julia
 Firstly, languages like C++ and Fortran are eliminated immediately. Although they do have a place in scientific computing, they are quite a hassle to work with for the kind of interactive explorations that we would like to do.
